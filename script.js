@@ -3,6 +3,8 @@ let list = ["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu
 let word = list[Math.floor(Math.random() * list.length)]
 
 function wow(){
-    word = list[Math.floor(Math.random() * list.length)]
+    test = Math.floor(Math.random() * list.length)
+    word = list[test]
     document.getElementById("question").textContent = word
+    console.log(word)
 }
