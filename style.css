@@ -8,3 +8,7 @@ div{
     display: flex;
     justify-content: center;
 }
+button{
+    margin: 25px;
+    font-size: 25px;
+}
