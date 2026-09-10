@@ -31,7 +31,7 @@ function wow(){
     answered+= 1
 }
 function start(){
-        test = Math.floor(Math.random() * list.length)
+    test = Math.floor(Math.random() * list.length)
     while(repeat.includes(test)){
         test = Math.floor(Math.random() * list.length)   
     }
@@ -46,7 +46,14 @@ function start(){
     document.getElementById("ans2").textContent = ans2
     document.getElementById("ans3").textContent = ans3
     document.getElementById("ans4").textContent = ans4
+    document.getElementById("question").style.visibility = "visible"
+    document.getElementById("ans1").style.visibility = "visible"
+    document.getElementById("ans2").style.visibility = "visible"
+    document.getElementById("ans3").style.visibility = "visible"
+    document.getElementById("ans4").style.visibility = "visible"
+    document.getElementById("startbutton").style.visibility = "hidden"
     repeat.push(test)
+
 }
 function check1(){
     if(Correct == "1"){
