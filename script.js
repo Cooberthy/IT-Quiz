@@ -9,7 +9,7 @@ let right = ["2", "1", "3", "4", "1"]
 let poeng = 0
 let repeat = []
 let answered = 0
-
+const score = document.getElementById("score")
 
 function wow(){
     test = Math.floor(Math.random() * list.length)
@@ -36,7 +36,8 @@ function wow(){
 
 function check1(){
     if(Correct == "1"){
-        poeng+=1 
+        poeng+=1
+        score.textContent = poeng
         wow()
     }
     else{
@@ -45,7 +46,8 @@ function check1(){
 }
 function check2(){
     if(Correct == "2"){
-        poeng+=1 
+        poeng+=1
+        score.textContent = poeng 
         wow()
     }
     else{
@@ -54,7 +56,8 @@ function check2(){
 }
 function check3(){
     if(Correct == "3"){
-        poeng+=1 
+        poeng+=1
+        score.textContent = poeng 
         wow()
     }
     else{
@@ -63,7 +66,8 @@ function check3(){
 }
 function check4(){
     if(Correct == "4"){
-        poeng+=1 
+        poeng+=1
+        score.textContent = poeng 
         wow()
     }
     else{
