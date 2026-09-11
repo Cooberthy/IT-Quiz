@@ -80,6 +80,7 @@ function start(){
 function check1(){
     if(Correct == "1"){
         poeng+=1
+        document.getElementById("ans1").style.color = "green"
         score.textContent = poeng
         next()
     }
