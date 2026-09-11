@@ -23,6 +23,10 @@ function next(){
         document.getElementById("ans4").style.visibility = "hidden"
         document.getElementById("startbutton").style.visibility = "visible"    
     }else{
+        document.getElementById("ans1").style.color = "black"
+        document.getElementById("ans2").style.color = "black"
+        document.getElementById("ans3").style.color = "black"
+        document.getElementById("ans4").style.color = "black"
         test = Math.floor(Math.random() * list.length)
         while(repeat.includes(test)){
             test = Math.floor(Math.random() * list.length)   
@@ -82,39 +86,46 @@ function check1(){
         poeng+=1
         document.getElementById("ans1").style.color = "green"
         score.textContent = poeng
-        next()
+        setTimeout(next, 1000)
     }
     else{
-        next()
+        document.getElementById("ans1").style.color = "red"
+        setTimeout(next, 1000)
     }
 }
 function check2(){
     if(Correct == "2"){
         poeng+=1
-        score.textContent = poeng 
-        next()
+        document.getElementById("ans2").style.color = "green"
+        score.textContent = poeng
+        setTimeout(next, 1000)
     }
     else{
-        next()
+        document.getElementById("ans2").style.color = "red"
+        setTimeout(next, 1000)
     }
 }
 function check3(){
     if(Correct == "3"){
         poeng+=1
-        score.textContent = poeng 
-        next()
+        document.getElementById("ans3").style.color = "green"
+        score.textContent = poeng
+        setTimeout(next, 1000)
     }
     else{
-        next()
+        document.getElementById("ans3").style.color = "red"
+        setTimeout(next, 1000)
     }
 }
 function check4(){
     if(Correct == "4"){
         poeng+=1
-        score.textContent = poeng 
-        next()
+        document.getElementById("ans4").style.color = "green"
+        score.textContent = poeng
+        setTimeout(next, 1000)
     }
     else{
-        next()
+        document.getElementById("ans4").style.color = "red"
+        setTimeout(next, 1000)
     }
 }
