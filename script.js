@@ -1,10 +1,10 @@
 let list = ["hva står css for", "hva står RAM for", "hvilken wifi kanal skal du ikke bruke", "hvilket gdpr prinsipp er riktighet",
-    "hva er det beste IT tipse", "hvilket lag er det fysiske laget"]
-let answer1 = ["crumbling style sheet", "random access memory", "11", "1", "har du prøvd å skru den av og på", "4"]
-let answer2 = ["cascading style sheet", "respotory aligning mass", "4", "3", "har du spørt osloskolenGPT", "1"]
-let answer3 = ["creaking style shark", "repeated acquiring method", "14", "7", "git gud", "2"]
-let answer4 = ["cmen sloving smen", "revolving aspire melonly", "6", "4", "gi opp", "3"]
-let right = ["2", "1", "3", "4", "1", "2"]
+    "hva er det beste IT tipse", "hvilket lag er det fysiske laget", "hvilket språk bruker vi for å kode nettsider"]
+let answer1 = ["crumbling style sheet", "random access memory", "11", "1", "har du prøvd å skru den av og på", "4", "norsk"]
+let answer2 = ["cascading style sheet", "respotory aligning mass", "4", "3", "har du spørt osloskolenGPT", "1", "python"]
+let answer3 = ["creaking style shark", "repeated acquiring method", "14", "7", "git gud", "2", "c++"]
+let answer4 = ["cmen sloving smen", "revolving aspire melonly", "6", "4", "gi opp", "3", "html"]
+let right = ["2", "1", "3", "4", "1", "2", "4"]
 let poeng = 0
 let repeat = []
 let answered = 0
